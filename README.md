@@ -30,8 +30,8 @@ We should be able to:
 - Make the Reapeat button work (when the audio ends it should loop back and start playing from the start)
 - Make the progress bar work
 
-  - change the width of the inner element to the percentage of the played track
-  - add a click handler on the progress bar to jump to the clicked spot
+  - When the audio is playing, the progress bar should be updated
+  - I should be able to click on the progress bar and jump to a specific time
 
 ## ★ Playlist
 
@@ -42,6 +42,10 @@ To get the list of songs do a request to `GET /api/songs`
 Show the list of songs, artist name, cover image and genre.
 
 I want to be able to play load into my player any song from the list.
+
+## Design
+
+You should use scss for styling the project
 
 ## Assets
 
