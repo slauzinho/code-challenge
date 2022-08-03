@@ -24,6 +24,7 @@ Let's build our own custom audio player.
 
 We should be able to:
 
+- Use the local file `mariobros.mp3`
 - Make the Play / Pause button work (if it's pause show the play button, if it's play show the pause button)
 - Make the JumpForward button work (lets jump 10s)
 - Make the JumpBack button work (lets go back 30s)
