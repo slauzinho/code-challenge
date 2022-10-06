@@ -18,11 +18,25 @@ Run the following command:
 npm run dev
 ```
 
+## Exercices
+
+Let's build our own custom audio player.
+
+We should be able to:
+
+- Use the local file `mariobros.mp3`
+- Make the Play / Pause button work (if it's pause show the play button, if it's play show the pause button)
+- Make the JumpForward button work (lets jump 10s)
+- Make the JumpBack button work (lets go back 30s)
+- Make the Reapeat button work (when the audio ends it should loop back and start playing from the start)
+- Make the progress bar work
+
+  - When the audio is playing, the progress bar should be updated
+  - I should be able to click on the progress bar and jump to a specific time
+
 ## ★ Playlist
 
-For starts we should be able to play the local song `mariobros.mp3`.
-
-As an added feature instead of playing only a local file we want to be able to fetch a playlist from a remote server.
+As an extra feature instead of playing a local file we want to be able to fetch a playlist from a remote server.
 
 To get the list of songs do a request to `GET /api/songs`
 
